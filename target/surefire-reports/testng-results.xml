@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="sei.DeDupTest" duration-ms="86" started-at="2016-10-15T16:26:13Z" finished-at="2016-10-15T16:26:13Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="86" started-at="2016-10-15T16:26:13Z" finished-at="2016-10-15T16:26:13Z">
+      <class name="sei.DeDupTest">
+        <test-method status="PASS" signature="testFailureDeDup([I, [I)[pri:0, instance:sei.DeDupTest@2f7c7260]" name="testFailureDeDup" duration-ms="9" started-at="2016-10-15T12:26:13Z" data-provider="failureCasesDeDup" finished-at="2016-10-15T12:26:13Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[I@26653222]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFailureDeDup -->
+        <test-method status="PASS" signature="testSuccessDeDup([I, [I)[pri:0, instance:sei.DeDupTest@2f7c7260]" name="testSuccessDeDup" duration-ms="55" started-at="2016-10-15T12:26:13Z" data-provider="successCasesDeDup" finished-at="2016-10-15T12:26:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@3532ec19]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[I@26653222]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessDeDup -->
+        <test-method status="PASS" signature="testSuccessDeDupOrder([I, [I)[pri:0, instance:sei.DeDupTest@2f7c7260]" name="testSuccessDeDupOrder" duration-ms="1" started-at="2016-10-15T12:26:13Z" data-provider="successCasesDeDupOrder" finished-at="2016-10-15T12:26:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@3532ec19]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[I@68c4039c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessDeDupOrder -->
+        <test-method status="PASS" signature="testSuccessDeDupSorted([I, [I)[pri:0, instance:sei.DeDupTest@2f7c7260]" name="testSuccessDeDupSorted" duration-ms="2" started-at="2016-10-15T12:26:13Z" data-provider="successCasesDeDupSorted" finished-at="2016-10-15T12:26:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@3532ec19]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[I@ae45eb6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessDeDupSorted -->
+      </class> <!-- sei.DeDupTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- sei.DeDupTest -->
+</testng-results>
